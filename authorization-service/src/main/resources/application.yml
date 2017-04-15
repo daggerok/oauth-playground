@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: authorization-service
+server:
+  port: 9999
+  context-path: /uaa
+security:
+  sessions: if_required

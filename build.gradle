@@ -1,0 +1,14 @@
+allprojects {
+  group 'daggerok'
+  version '0.0.1'
+
+  apply plugin: 'java'
+  apply plugin: 'idea'
+
+  sourceCompatibility = JavaVersion.VERSION_1_8
+
+  repositories {
+    mavenCentral()
+    maven { url "https://repo.spring.io/milestone" }
+  }
+}
